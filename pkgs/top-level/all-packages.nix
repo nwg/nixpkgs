@@ -23203,6 +23203,8 @@ with pkgs;
 
   libinput-gestures = callPackage ../tools/inputmethods/libinput-gestures { };
 
+  libinput-config = callPackage ../tools/misc/libinput-config { };
+
   libinstpatch = callPackage ../development/libraries/audio/libinstpatch { };
 
   libipt = callPackage ../development/libraries/libipt { };
